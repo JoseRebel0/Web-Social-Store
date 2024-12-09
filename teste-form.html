@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Popup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .form-container .cancel {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+
+<button class="button" onclick="openForm()">Abrir Formulário</button>
+
+<div class="form-popup" id="myForm">
+    <form action="/submit" class="form-container">
+        <h2>Formulário</h2>
+
+        <label for="name"><b>Nome</b></label>
+        <input type="text" placeholder="Digite seu nome" name="name" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Digite seu email" name="email" required>
+
+        <label for="psw"><b>Senha</b></label>
+        <input type="password" placeholder="Digite sua senha" name="psw" required>
+
+        <button type="submit" class="btn">Enviar</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Fechar</button>
+    </form>
+</div>
+
+<script>
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
