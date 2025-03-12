@@ -1,10 +1,10 @@
-📌 Social Store - Management System
+#📌 Social Store - Management System
 
-🌍 About the Project
+#🌍 About the Project
 
 This PHP-based management system allows administrators, users, and clients to efficiently handle various operations, such as managing content, users, and service requests.
 
-🚀 Features
+#🚀 Features
 
 🔑 Administrators
 
