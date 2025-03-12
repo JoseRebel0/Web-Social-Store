@@ -2,6 +2,9 @@
 
 ## 🌍 About the Project
 This PHP-based management system allows administrators, users, and clients to efficiently handle various operations, such as managing content, users, and service requests.
+I developed this website during my curricular internship in the IT department of the **Portuguese Red Cross - Braga Delegation** to support the **Ponto Vermelho** initiative, improving user and content management.  
+
+**Ponto Vermelho** is a social store within the **Ponto Cruz** project, which promotes the **inclusion of elderly individuals and long-term unemployed people (50+ years old)** through **sewing, embroidery, and clothing recycling workshops**. It encourages **sustainable fashion**, **community engagement**, and **social reintegration**, allowing participants to showcase and sell their creations.
 
 ---
 
