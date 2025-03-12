@@ -53,6 +53,9 @@ This PHP-based management system allows administrators, users, and clients to ef
 ### ⚡ Optimization
 - Page loading speed can be improved.
 
+### 📂 Files Organization
+- Some files could be more organized.
+
 ---
 
 ## 🏗 How to Run the Project
