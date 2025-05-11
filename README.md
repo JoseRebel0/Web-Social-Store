@@ -61,7 +61,7 @@ I developed this website during my curricular internship in the IT department of
 
 ---
 
-## How to Run the Project
+##  How to Run the Project
 
 1. Install a local server (XAMPP, WAMP, etc.).
 2. Place the files in the `htdocs` folder or equivalent.
@@ -70,7 +70,7 @@ I developed this website during my curricular internship in the IT department of
 
 ---
 
-## Contributing
+##  Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to create an issue or submit a pull request.
 
 ---
